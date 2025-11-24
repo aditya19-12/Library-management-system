@@ -1,0 +1,167 @@
+Library Management System — README
+1. Project Title
+
+Library Management System using Python
+
+2. Introduction
+
+A library plays a major role in academics by providing books and learning resources to students and faculty. Traditionally, libraries maintain records manually using registers which becomes difficult to manage when the number of books and users increases.
+
+Manual systems have various drawbacks such as:
+
+Time-consuming book search
+
+Difficulty in maintaining issued book records
+
+Chances of human error in updates
+
+Misplacement or loss of records
+
+No fast backup or retrieval system
+
+To overcome these issues, a computer-based Library Management System is necessary.
+This project is a console-based Python application that digitizes library functions including adding books, viewing book lists, searching for books, and issuing books to readers. The project makes use of Python’s file handling concept to store data permanently in .txt files so information remains safe even after the program is closed.
+
+It is built using a modular programming approach, improving readability and future expansion. This makes it highly useful for beginners to understand real-world system design while applying Python fundamentals.
+
+Overall, this software improves efficiency, reduces workload, ensures accurate data storage, and provides quicker access to book records. It acts as the foundation for future advanced library automation systems.
+
+3. Objectives
+
+To computerize library book records
+
+To provide fast searching and issuing operations
+
+To store information safely using digital files
+
+To reduce errors in manual record-keeping
+
+To learn implementation of file handling in Python
+
+To design a scalable system that can be upgraded later
+
+4. Scope of the Project
+
+Academic library book management
+
+Small-scale library operations
+
+Beginner learning for Python file/data storage
+
+Real use in schools, tuition centers, and institutes
+
+5. Features of the System
+Feature	Purpose
+Add Book	Store Book ID, Title, Author in digital format
+View Books	Display complete list of available books
+Search Book	Find books using title or author keywords
+Issue Book	Track which user took which book
+Permanent Record Storage	Information remains saved in .txt files
+6. Technology Used
+Component	Implementation
+Programming Language	Python 3.x
+Programming Concepts	File Handling, Conditional Logic, Modular Design
+Storage	Text Files — books.txt & issued_books.txt
+Interface	Command Line (Terminal/VS Code)
+7. System Requirements
+
+Windows / Linux / MacOS
+
+Python 3.8 or above
+
+Command-line support
+
+Minimum 2GB RAM
+
+8. Working Principle
+
+User chooses an option from the menu
+
+System takes required input (book details/search keyword etc.)
+
+Python reads/writes data in text files
+
+books.txt → stores existing books
+
+issued_books.txt → stores issued book records
+
+Output displayed instantly to the user
+
+This maintains data persistence and quick data retrieval.
+
+9. Folder Structure
+Library-Management-System/
+│
+├─ main.py
+│
+├─ modules/
+│   ├─ add_book.py
+│   ├─ view_books.py
+│   ├─ issue_book.py
+│   └─ search_book.py
+│
+└─ data/
+    ├─ books.txt
+    └─ issued_books.txt
+
+10. Steps to Install & Run
+
+Install Python 3.x
+
+Download the project folder
+
+Open terminal inside the folder
+
+Run command:
+
+python main.py
+
+
+Menu will appear → Select the required operation.
+
+11. Testing Strategy
+
+Book added must be visible through View Books
+
+Search must display correct matching result
+
+Issued book entry should appear in issued_books.txt
+
+System must not crash even if books list is empty
+
+Testing confirms that all basic modules function properly.
+
+12. Limitations
+
+No system to return issued books
+
+No fine calculation for late returns
+
+No login or user access control
+
+Only text-file storage (no database)
+
+Console-based interface only
+
+13. Future Scope / Enhancements
+Planned Upgrade	Purpose
+Return Book feature	To maintain availability status
+Fine Calculation	To monitor late submissions
+Login/Authentication	Admin-only access
+Database Integration (MySQL/SQLite)	Store records more securely
+GUI using Tkinter or Web App	Better user experience
+
+These enhancements can convert it into a fully-featured professional library software.
+
+14. Conclusion
+
+The Library Management System successfully replaces manual book-record keeping with a simple digital solution. It improves data management, accuracy, and productivity.
+The project demonstrates Python file handling, modular coding and practical application development for academic use.
+It can be extended further with advanced features to serve larger libraries effectively.
+
+15. Developer Details
+
+Name : Your Name Here
+Course : Your Class Name
+Institute : Your College Name
+Academic Year : 2024-2025
